@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Your favourite music is here</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Images/Spotify Clone/logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best Songs of All Time</h1>
+            <div class="songItem">
+                <img src="RamSiyaRam.jpg" alt="cover">
+                <span class="songName">Ram Siya Ram</span>
+                <span class="songlistplay"><span>05:34</span><i id="0"  class="fa-solid songItemPlay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="Kabir.jpg" alt="cover">
+                <span class="songName">Dil Ka Dariya</span>
+                <span class="songlistplay"><span class="timestamp">05:34</span><i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="Gadar.jpg" alt="cover">
+                <span class="songName">Udd Ja Kaale Kawa</span>
+                <span class="songlistplay"><span>05:34</span><i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="Humsafar.jpg" alt="cover">
+                <span class="songName">Humsafar</span>
+                <span class="songlistplay"><span>05:34</span><i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="Suit.jpg" alt="cover">
+                <span class="songName">Chakkwein Suit</span>
+                <span class="songlistplay"><span>05:34</span><i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="Aarambh.jpg" alt="cover">
+                <span class="songName">Aarambh</span>
+                <span class="songlistplay"><span>05:34</span><i id="5" class="fa-solid songItemPlay fa-circle-play"></i></span>
+            </div>
+        </div>
+        <div class="songBanner">
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-backward-fast"></i>
+            <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-forward-fast"></i>
+        </div>
+        <div class="gif">
+            <img src="playing.gif" alt="playing" id="gifId"> <span id="masterSongName"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/95a8bf514e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
